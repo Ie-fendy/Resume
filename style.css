@@ -1,0 +1,148 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  line-height: 1.5;
+  background: #F2F2F2;
+  color: #323232;
+}
+
+img {
+  max-width: 100%;
+}
+
+.icon {
+  fill: currentColor;
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+}
+
+a {
+  color: #323232;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  max-width: 960px;
+  margin: 40px auto;
+  padding: 32px;
+  background: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: justify;
+}
+
+.border {
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey
+}
+
+section {
+  display: grid;
+  grid-template-columns: 3fr 1.1fr;
+  grid-gap: 50px;
+  padding-top: 20px;
+  padding-left: inherit;
+  
+}
+
+section:last-child {
+  border-bottom: none;
+}
+
+.section-title {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+img.avatar {
+  width: 130px;
+  padding-top: 25px;
+
+}
+
+.my-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 48px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.my-title {
+  font-family: Arial, Helvetica, sans-serif;;
+  font-size: 24px;
+  font-weight: 300;
+  color: #236FB2;
+}
+
+.link-item svg {
+  margin-right: 6px;
+}
+
+.job {
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid lightgrey;
+}
+
+
+
+.job-title-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.job-company {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+ol {
+  display: block;
+  list-style-type: decimal;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 30px;
+}
+
+.organization
+{
+  padding: 20px;
+}
+
+.skills-container ul {
+  margin-left: 20px;
+  list-style-type: disc;
+  padding: 20px;
+}
+
+.contact {
+  padding-bottom: 20px;
+}
+
+.education {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.departement {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
